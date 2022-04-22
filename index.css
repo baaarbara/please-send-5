@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Press+Start+2P&display=swap');
+
+body {
+	position: relative;
+	font-family: 'Noto Sans', sans-serif;
+	
+	line-height: 2;
+	color: #000;
+	min-width: 320px;
+	overflow-x: hidden;
+	height: auto;
+}
+
+div{
+    font-family: 'Akshar', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+}
+
+.navbar .cotainer {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 50px;
+}
+
+.navbar-menu li {
+    display: inline-block;
+}
+
+button {
+    bottom: 150px;
+    float: right;
+    margin: 15px;
+    background: #2e2e2e;
+    color: #FFFFFF;
+    padding: 15px 35px;
+    font-family: 'Akshar', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    
+}
+button:nth-child(1):hover{
+    background: #FFFFFF;
+    color: #000;
+}
+
+p {
+    float: right;
+}
+#more{display: none;}
